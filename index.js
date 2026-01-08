@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello from Jenkins CI/CD on AWS EC2!');
+  res.send('Webhook auto deploy workingy');
 });
 
 app.listen(3000, () => {
